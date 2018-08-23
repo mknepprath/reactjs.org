@@ -35,9 +35,7 @@ export const pageQuery = graphql`
         prev
       }
       fields {
-        path {
-          id
-        }
+        path
         slug
       }
     }
